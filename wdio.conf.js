@@ -1,4 +1,6 @@
-exports.config = {
+require("ts-node").register({files: true});
+
+export const config = {
     //
     // ====================
     // Runner Configuration
@@ -21,7 +23,8 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+        //'./test/specs/**/*.js'
+        './test/specs/**/*.ts'
     ],
     // Patterns to exclude.
     exclude: [

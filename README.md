@@ -42,3 +42,27 @@ npx wdio config
     ],
 
 Все теперь в файлах .js и .ts доступны свойства и методы через "."    
+
+SELECTORS:
+
+https://webdriver.io/docs/selectors/
+
+Получить элемент можно по:
+$(''); - он в любом случае вернет объект даже если его не найдет.
+$$(''); - он в любом случае вернет массив объектов, даже если не найдет, тогда массив пустой.
+
+https://www.w3schools.com/cssref/css_selectors.asp - In CSS, selectors are patterns used to select the element(s) you want to style.
+https://www.w3schools.com/cssref/trysel.asp - Use our CSS Selector Tester to demonstrate the different selectors.
+
+CSS selector - нужно использовать если ищем от объекта вНиз
+
+xPath - используем если хотим искать от объекта вВерх и вБок, а так же если поиск по ТАБЛИЦАМ
+Лучший мануал по xPath - https://docs.google.com/document/d/1PdfKMDfoqFIlF4tN1jKrOf1iZ1rqESy2xVMIj3uuV3g/pub
+
+
+
+---------------------------------------------------------------------------------------------------------------
+3.Доступные действия на странице. Управление браузером, работа с элементами страницы. Написание теста на форму регистрации
+
+https://webdriver.io/docs/api/browser/$
+https://webdriver.io/docs/api/element/$

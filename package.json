@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/Golovchik/js-ui-wdio#readme",
   "dependencies": {
-    "@wdio/cli": "^7.17.4"
+    "@wdio/cli": "^7.17.4",
+
+    "chai": "^4.3.6"
   },
   "devDependencies": {
     
@@ -35,5 +37,6 @@
     "@types/node": "^17.0.21",
     "@types/chai": "^4.3.0"
 
+    
   }
 }

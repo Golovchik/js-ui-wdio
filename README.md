@@ -100,4 +100,38 @@ Shoull
 Assert
 
 
+dataProvider
+Data Provider — паттерн, который очень удобен при наличии одной и той же тестовой логики с разными тестовыми данными. 
+Также используем данный шаблон в связке с Builder паттерном.
+https://qaband.com/qa/populjarnye-patterny-v-testirovanii/
+
+// DATAPROVIDER
+    let dataCollection = [1, 2, 3, 4, 5];
+    dataCollection.map(data => {
+        it(`${counter.c} TEST for ${data}`, function() {
+            console.log(`TEST number ${data} executed!`);
+        });
+    });
+
+
+
+Shared-Behaviours
+https://github.com/mochajs/mocha/wiki/Shared-Behaviours
+
+Параметры:
+https://mochajs.bootcss.com/api/Mocha.html
+
+    specFileRetries: 1, Количество повторных попыток всего спецификационного файла в случае сбоя в целом.
+    ,можно объявить в mochaOpts: retries
+
+    grep - Test filter given regular expression. 
+
+
+---------------------------------------------------------------------------------------------------------------
+Паттерны Page Object, Page Component, Data Model
+
+Рефакторинг TS:
+https://code.visualstudio.com/Docs/languages/typescript#_refactoring
+
+
 

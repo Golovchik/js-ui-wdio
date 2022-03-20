@@ -26,7 +26,9 @@ export const config = {
         //'./test/specs/**/*.js'
         //'./test/specs/**/*.ts'
         //'./test/specs/**/registration.ts'
-        './test/specs/**/assertions.ts'
+        //'./test/specs/**/assertions.ts'
+        //'./test/specs/**/mocha_hook.ts'
+        './test/specs/**/checkout.ts'
     ],
     // Patterns to exclude.
     exclude: [
@@ -146,7 +148,7 @@ export const config = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 60000
+        timeout: 60000,
     },
     //
     // =====
